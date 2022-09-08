@@ -1,0 +1,18 @@
+{
+  "name": "tchat_awsd.fr",
+  "version": "1.0.0",
+  "description": "tchat in real time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "malgol",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.2"
+  }
+}
