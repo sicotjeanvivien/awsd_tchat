@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://127.0.0.1:3033" || "https://tchat.awsd.fr:3033",
+    origin: "https://tchat.awsd.fr:3033",
     methods: ["GET", "POST"],
   },
 });
